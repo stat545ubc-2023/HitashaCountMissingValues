@@ -34,7 +34,7 @@ have. You can do so by using install.packages("devtools").
 
 You can install `HitashaCountMissingValues` from github by running the following code:
 
-```{r}
+```{r, eval = FALSE}
 devtools::install_github("stat545ubc-2023/HitashaCountMissingValues", ref= "0.1.0")
 ```
 
