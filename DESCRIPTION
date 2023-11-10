@@ -1,0 +1,20 @@
+Package: HitashaCountMissingValues
+Title: Count Missing Values For All Columns By Group
+Version: 0.0.0.9000
+Authors@R: 
+    person("Hitasha", "Bajaj", , "hitashab@gmail.com", role = c("aut", "cre"))
+Description: The package created for this assignment provides a function called
+  `count_all_missing_by_group()`. This allows you to count missing values
+  for all columns by group. It creates a new data frame with one row per
+  level of group. The first column of the output data frame contains the
+  levels of group while the rest of the columns contain the number of
+  missing values for all columns in the data except those in group.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+  dplyr
+Suggests:
+  testthat,
+  tibble
